@@ -4,7 +4,6 @@ import SOCIALPROFILES from "./data/socialProfiles";
 class Socialprofile extends Component {
     render() {
         const { link, image } = this.props.socialprof
-        console.log(this.props.socialprof)
         return (
             <div style={{ display: 'inline-block', margin: 20 }}>
                 <a href={link}><img src={image} alt='Social Media Icon' style={{ width: 40, height: 40 }} /></a>

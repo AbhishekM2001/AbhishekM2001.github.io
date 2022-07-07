@@ -28,5 +28,35 @@ h5 {
     width: 200px;
     height: 200px;
     border-radius: 100px;
+}
 
+.title-fade-in {
+    opacity: 100;
+    animation: fade-in 2s;
+}
+
+.title-fade-out {
+    opacity: 0;
+    animation: fade-out 2s;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 100;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
 }
