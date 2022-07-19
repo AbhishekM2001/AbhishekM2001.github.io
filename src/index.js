@@ -9,6 +9,8 @@ import './index.css'
 
 const history = createBrowserHistory()
 ReactDOM.render(
-    <HashRouter>
-        <App />
-    </HashRouter>, document.querySelector('#root'))
+    <React.StrictMode>
+        <HashRouter>
+            <App />
+        </HashRouter>
+    </React.StrictMode>, document.querySelector('#root'))
