@@ -35190,16 +35190,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var history = (0, _createBrowserHistory.default)();
 
-_reactDom.default.render( /*#__PURE__*/_react.default.createElement(_reactRouterDom.Router, {
-  history: history
-}, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
-  exact: true,
-  path: "/",
-  component: _app.default
-}), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
-  path: "/jokes",
-  component: _Jokes.default
-}))), document.querySelector('#root'));
+_reactDom.default.render( /*#__PURE__*/_react.default.createElement(_reactRouterDom.HashRouter, null, /*#__PURE__*/_react.default.createElement(_app.default, null)), document.querySelector('#root'));
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","history/createBrowserHistory":"node_modules/history/createBrowserHistory.js","react-router-dom":"node_modules/react-router-dom/es/index.js","./Components/app":"src/Components/app.js","./Components/Jokes":"src/Components/Jokes.js","./index.css":"src/index.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -35228,7 +35219,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64623" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58410" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
