@@ -8,6 +8,7 @@ const Header = () => {
         margin: 10,
         display: 'inline-block'
     }
+
     return (
         <div>
             <h3 style={style}><Link to='/'>Home</Link></h3>
