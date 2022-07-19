@@ -11,6 +11,9 @@ const history = createBrowserHistory()
 ReactDOM.render(
     <React.StrictMode>
         <HashRouter>
-            <App />
+            <Switch>
+                <Route exact path='/' component={App} />
+                <Route path='/jokes' component={Jokes} />
+            </Switch>
         </HashRouter>
     </React.StrictMode>, document.querySelector('#root'))
