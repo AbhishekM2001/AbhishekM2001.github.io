@@ -34987,7 +34987,7 @@ var Jokes = /*#__PURE__*/function (_Component) {
       var _this$state$joke = this.state.joke,
           setup = _this$state$joke.setup,
           punchline = _this$state$joke.punchline;
-      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement("h2", null, "Highlighted Joke:"), /*#__PURE__*/_react.default.createElement("p", null, setup, " ", /*#__PURE__*/_react.default.createElement("em", null, punchline)));
+      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Highlighted Joke:"), /*#__PURE__*/_react.default.createElement("p", null, setup, " ", /*#__PURE__*/_react.default.createElement("em", null, punchline)));
     }
   }]);
 
@@ -35226,7 +35226,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62740" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63203" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
