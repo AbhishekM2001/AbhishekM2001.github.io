@@ -34868,8 +34868,8 @@ var Title = /*#__PURE__*/function (_Component) {
 
 var _default = Title;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/assets/profile.png":[function(require,module,exports) {
-module.exports = "/profile.7c28ed02.png";
+},{"react":"node_modules/react/index.js"}],"../../../../../Abhishek Mukherjee/Photos/Abhishek Mukherjee.jpg":[function(require,module,exports) {
+module.exports = "/Abhishek Mukherjee.28eea6cc.jpg";
 },{}],"src/Components/Header.js":[function(require,module,exports) {
 "use strict";
 
@@ -35012,7 +35012,7 @@ var _SocialProfiles = _interopRequireDefault(require("./SocialProfiles"));
 
 var _Title = _interopRequireDefault(require("./Title"));
 
-var _profile = _interopRequireDefault(require("../assets/profile.png"));
+var _AbhishekMukherjee = _interopRequireDefault(require("../../../../../../../Abhishek Mukherjee/Photos/Abhishek Mukherjee.jpg"));
 
 var _Jokes = _interopRequireDefault(require("./Jokes"));
 
@@ -35081,10 +35081,10 @@ var App = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement("img", {
-        src: _profile.default,
+        src: _AbhishekMukherjee.default,
         alt: "profile",
         className: "pfp"
-      }), /*#__PURE__*/_react.default.createElement("h1", null, " Hi Abhishek here"), this.state.displayBio ? /*#__PURE__*/_react.default.createElement(_Title.default, null) : null, this.state.displayBio ? /*#__PURE__*/_react.default.createElement("div", null, "I live in Mumbai and I'm learning ReactJS which is a JavaScript frontend framework", /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
+      }), /*#__PURE__*/_react.default.createElement("h1", null, " Hi,I am Abhishek Mukherjee"), this.state.displayBio ? /*#__PURE__*/_react.default.createElement(_Title.default, null) : null, this.state.displayBio ? /*#__PURE__*/_react.default.createElement("div", null, "I live in Mumbai and I'm learning ReactJS which is a JavaScript frontend framework", /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
         onClick: this.togglebio
       }, "Show Less"))) : /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
         onClick: this.togglebio
@@ -35097,7 +35097,7 @@ var App = /*#__PURE__*/function (_Component) {
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Projects":"src/Components/Projects.js","./SocialProfiles":"src/Components/SocialProfiles.js","./Title":"src/Components/Title.js","../assets/profile.png":"src/assets/profile.png","./Jokes":"src/Components/Jokes.js","./Header":"src/Components/Header.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Projects":"src/Components/Projects.js","./SocialProfiles":"src/Components/SocialProfiles.js","./Title":"src/Components/Title.js","../../../../../../../Abhishek Mukherjee/Photos/Abhishek Mukherjee.jpg":"../../../../../Abhishek Mukherjee/Photos/Abhishek Mukherjee.jpg","./Jokes":"src/Components/Jokes.js","./Header":"src/Components/Header.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -35226,7 +35226,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63203" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63294" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
