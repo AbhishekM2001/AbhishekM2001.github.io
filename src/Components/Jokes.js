@@ -17,6 +17,7 @@ class Jokes extends Component {
         const { setup, punchline } = this.state.joke
         return (
             <div>
+                <Header />
                 <h2>Highlighted Joke:</h2>
                 <p>
                     {setup} <em>{punchline}</em>
