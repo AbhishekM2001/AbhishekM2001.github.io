@@ -1,24 +1,54 @@
 {
-  "name": "portfolio-app",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://abhishekm2001.github.io/",
   "private": true,
+  "homepage": "https://abhishekm2001.github.io/",
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "history": "^4.7.2",
-    "parcel-bundler": "^1.12.5",
-    "react": "^16.6.3",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "lightbox2": "^2.11.0",
+    "normalize.css": "^8.0.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.4.4",
+    "react-typed": "^1.1.2",
+    "sass": "^1.54.8",
+    "typed.js": "^2.0.10"
   },
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "start": "npm run build && live-server dist",
-    "deploy": "npm run build && gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A boilrplate react portfolio to showcase your projects and work",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shloksomani/react-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shloksomani/react-portfolio/issues"
   }
 }
