@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 //import stock
 import stock from "../img/image1.jpg";
@@ -8,7 +8,7 @@ import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
-class Portfolio extends React.Component {
+class Portfolio extends Component {
   render() {
     return (
       <section id="work" className="portfolio-mf sect-pt4 route">
@@ -18,8 +18,8 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  I'm a software engineer who has worked with various technologies
+                  in web development and is enthusiastic about the world of Data Science too!!
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -35,10 +35,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Online Bug Tracking System</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5, CSS3, Bootstrap, NodeJS, ReactJS, PostgreSQL DB, ExpressJS
                           </span>
                         </div>
                       </div>
@@ -96,11 +96,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">To Do List App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                            HTML5, CSS3, JavaScript, MongoDB Atlas, ExpressJS, NodeJS (MERN)
                           </span>{" "}
                         </div>
                       </div>
@@ -158,10 +157,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Unbeatable Tic Tac Toe Game using AI</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                            HTML5, CSS3, JavaScript
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -220,10 +219,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Youtube Clickbait Identification using transfer learning with BERT</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            NLP, AI, BERT, SVM, Naive Bayes, Random Forest
                           </span>
                         </div>
                       </div>
@@ -281,9 +280,9 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Intelligent Railway Database Management System on Azure</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">HTML5, CSS, JavaScript, NodeJS, Azure</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -340,10 +339,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Symptomatic Data Mining Study of COVID-19</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                            ML, Decision Tree, KNN, Naive Bayes
                           </span>
                         </div>
                       </div>

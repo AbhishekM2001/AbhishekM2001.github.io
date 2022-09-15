@@ -1,14 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import myImage from "../img/myImage.png";
 
-class Navbar extends React.Component {
+// import logo1 from "../img/male1.png";
+// import logo2 from "../img/male.png";
+
+class Navbar extends Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1
+      logo: myImage
     };
   }
 
@@ -16,7 +18,7 @@ class Navbar extends React.Component {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
 
-    $(".navbar-toggler").on("click", function() {
+    $(".navbar-toggler").on("click", function () {
       if (!$("#mainNav").hasClass("navbar-reduce")) {
         $("#mainNav").addClass("navbar-reduce");
       }
@@ -27,7 +29,7 @@ class Navbar extends React.Component {
       offset: navHeight
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
 
@@ -39,7 +41,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: "" })
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -47,14 +49,14 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-reduce");
-        this.setState({ logo: logo1 });
+        this.setState({ logo: myImage })
       }
     });
 
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
         window.location.pathname.replace(/^\//, "") ===
-          this.pathname.replace(/^\//, "") &&
+        this.pathname.replace(/^\//, "") &&
         window.location.hostname === this.hostname
       ) {
         var target = $(this.hash);
@@ -74,7 +76,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
   }
@@ -89,8 +91,8 @@ class Navbar extends React.Component {
           <a className="navbar-brand js-scroll" href="#page-top">
             <img
               src={this.state.logo}
-              alt="logo"
-              style={{ maxWidth: "100px" }}
+              alt="Abhishek's portfolio"
+              style={{ maxWidth: "100px", height: "120px", padding: "0", margin: "0", color: "black" }}
             />
           </a>
           <button
@@ -123,7 +125,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Projects
                 </a>
               </li>
               <li className="nav-item">

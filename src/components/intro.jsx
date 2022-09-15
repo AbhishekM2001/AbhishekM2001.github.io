@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 
-class Intro extends React.Component {
+class Intro extends Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
@@ -37,7 +37,7 @@ class Intro extends React.Component {
                   href="#work"
                   role="button"
                 >
-                  View My Work
+                  View My Projects
                 </a>
               </p>
             </div>

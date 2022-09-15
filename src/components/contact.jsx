@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import imageOverlay from "../img/earth.jpg";
 
-class Contact extends React.Component {
+class Contact extends Component {
   render() {
     return (
       <section
@@ -17,7 +17,7 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Send me a Message</h5>
                       </div>
                       <div>
                         <form
@@ -130,7 +130,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/AbhishekM2001"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/abhishek-mukherjee-73381821a/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
