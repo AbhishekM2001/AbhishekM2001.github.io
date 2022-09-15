@@ -21,7 +21,7 @@ class Contact extends Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/xknejjav"
                           method="POST"
                           className="contactForm"
                         >

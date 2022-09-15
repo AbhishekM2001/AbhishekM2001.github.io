@@ -28,7 +28,7 @@ class Portfolio extends Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={"https://github.com/AbhishekM2001/BugTrackingSystem-client"} data-lightbox="gallery-vmarine">
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
@@ -38,7 +38,7 @@ class Portfolio extends Component {
                         <h2 className="w-title">Online Bug Tracking System</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5, CSS3, Bootstrap, NodeJS, ReactJS, PostgreSQL DB, ExpressJS
+                            Tags: HTML5, CSS3, Bootstrap, NodeJS, ReactJS, PostgreSQL DB, ExpressJS
                           </span>
                         </div>
                       </div>
@@ -99,7 +99,7 @@ class Portfolio extends Component {
                         <h2 className="w-title">To Do List App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5, CSS3, JavaScript, MongoDB Atlas, ExpressJS, NodeJS (MERN)
+                            Tags: HTML5, CSS3, JavaScript, MongoDB Atlas, ExpressJS, NodeJS (MERN)
                           </span>{" "}
                         </div>
                       </div>
@@ -150,7 +150,7 @@ class Portfolio extends Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={"https://abhishekm2001.github.io/Unbeatable-Tic-Tac-Toe-using-Minmax-algorithm/index.html"} data-lightbox="gallery-todo">
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
@@ -160,7 +160,7 @@ class Portfolio extends Component {
                         <h2 className="w-title">Unbeatable Tic Tac Toe Game using AI</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5, CSS3, JavaScript
+                            Tags: HTML5, CSS3, JavaScript
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -222,7 +222,7 @@ class Portfolio extends Component {
                         <h2 className="w-title">Youtube Clickbait Identification using transfer learning with BERT</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            NLP, AI, BERT, SVM, Naive Bayes, Random Forest
+                            Tags: NLP, AI, BERT, SVM, Naive Bayes, Random Forest
                           </span>
                         </div>
                       </div>
@@ -273,7 +273,7 @@ class Portfolio extends Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={"https://intelligentraildbms.azurewebsites.net//"} data-lightbox="gallery-smth">
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
@@ -332,7 +332,7 @@ class Portfolio extends Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={"https://github.com/AbhishekM2001/Comparative-Study-of-ML-algorithms-on-Covid-dataset"} data-lightbox="gallery-mf">
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
@@ -342,7 +342,7 @@ class Portfolio extends Component {
                         <h2 className="w-title">Symptomatic Data Mining Study of COVID-19</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            ML, Decision Tree, KNN, Naive Bayes
+                            Tags: ML, Decision Tree, KNN, Naive Bayes
                           </span>
                         </div>
                       </div>

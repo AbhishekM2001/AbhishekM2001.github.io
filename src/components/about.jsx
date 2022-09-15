@@ -14,7 +14,6 @@ class About extends Component {
           percentage: "90%",
           value: "90"
         },
-        { id: "Java_skill", content: "Java", percentage: "80%", value: "80" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -22,16 +21,23 @@ class About extends Component {
           value: "80"
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          percentage: "75%",
-          value: "75"
-        },
-        {
           id: "NodeJS_skill",
           content: "NodeJS",
           percentage: "90%",
           value: "90"
+        },
+        { id: "Java_skill", content: "Java", percentage: "80%", value: "80" },
+        {
+          id: "C++_skill",
+          content: "C++",
+          percentage: "75%",
+          value: "75"
+        },
+        {
+          id: "Python_skill",
+          content: "Python",
+          percentage: "75%",
+          value: "75"
         },
         {
           id: "C++_skill",
@@ -49,7 +55,7 @@ class About extends Component {
         {
           id: "second-p-about",
           content:
-            "I've experience on working with many technologies. I've done few projects in Web Development and have keen interest in Data Science too.I'm always looking for opportunities to improve my skills and learn new skills along the way!"
+            "I have experience on working with many technologies. I've done some projects in Web Development and have keen interest in Data Science too. I'm always looking for new opportunities to improve my skills and learn new skills along the way!"
         }
 
       ]
